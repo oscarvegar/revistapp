@@ -1,0 +1,19 @@
+<ion-view view-title="Feedback">
+  <ion-content>
+  	
+  	<div class="card">
+	  <div class="item item-text-wrap" >
+	  	<form ng-submit="enviarMensaje()">
+		    Nos interesa saber tu opinión, déjanos un mensaje.
+		    <br>
+		    <br>
+		    <div>
+		    	<textarea ng-model="mensaje.data" style="width:100%"rows=10  class="item-input-wrapper" placeholder="Escribe mensaje..." required></textarea >
+		    </div>
+		    <input type="submit" value="Enviar Mensaje" class="button button-block button-positive" ng-disabled="!mensaje.data || mensaje.data.length===0">
+	    </form>
+	  </div>
+	</div>
+	
+  </ion-content>
+</ion-view>

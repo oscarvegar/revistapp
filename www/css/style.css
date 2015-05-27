@@ -1,0 +1,10 @@
+/* Empty. Add your own CSS if you like */
+.center{
+	text-align: center;
+}
+
+.viewer{
+	width: 100%;
+	height: 900px;
+	border-style: solid,1px;
+}
