@@ -1,0 +1,2 @@
+# revistapp
+template revista
